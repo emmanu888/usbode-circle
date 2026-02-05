@@ -163,7 +163,7 @@ const CUSBCDGadget::TUSBMSTGadgetConfigurationDescriptor CUSBCDGadget::s_Configu
             1, // bNumInterfaces
             1,
             0,
-            0xa0,   // bmAttributes (bus-powered)
+            0x80,   // bmAttributes (bus-powered)
             500 / 2 // bMaxPower (500mA)
         },
         {
